@@ -94,12 +94,12 @@ VERSION = re.search(
 
 if __name__ == "__main__":
     setuptools.setup(
-        name="pycld2",
+        name="pycld2-chatbees-fork",
         version=VERSION,
-        author="Rami Al-Rfou",
-        author_email="rmyeid@gmail.com",
-        maintainer="Brad Solomon",
-        maintainer_email="brad.solomon.1124@gmail.com",
+        author="ChatBees",
+        author_email="build@chatbees.ai",
+        maintainer="Chat Bees",
+        maintainer_email="build@chatbees.ai",
         description="Python bindings around Google Chromium's embedded compact language detection library (CLD2)",
         long_description=io.open(
             path.join(HERE, "README.md"),
